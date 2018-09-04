@@ -1,0 +1,23 @@
+{
+  "name": "articles-mernstack",
+  "version": "1.0.0",
+  "description": "Articles",
+  "main": "index.js",
+  "author": "Tanwinder Sidhu",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-start": "npm run start --prefix client",
+    "server": "node server/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.11.0",
+    "compression": "^1.7.3",
+    "connect-multiparty": "^2.1.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "mongoose": "^5.2.12"
+  }
+}
